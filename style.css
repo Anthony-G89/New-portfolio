@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mynav{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+.nav-link{
+    color: gray;
+    font-size: x-large;
+}
+
+#myname{
+    float: left;
+    background-color:teal;
+    color: white;
+    padding: 10px;
+    
+
+    
+}
