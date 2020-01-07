@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url(assets/qbkls.png);
 }
 
 .mynav{
@@ -19,7 +20,14 @@ body{
     background-color:teal;
     color: white;
     padding: 10px;
-    
+}
+
+.me{
+    padding: 20px;
+}
+
+.w3-container{
+     
+}
 
     
-}
