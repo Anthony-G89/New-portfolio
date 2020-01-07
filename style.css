@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: ;
+    padding: ;
     background-image: url(assets/qbkls.png);
 }
 
@@ -16,7 +16,7 @@ body{
 }
 
 #myname{
-    float: left;
+    width: 32%;
     background-color:teal;
     color: white;
     padding: 10px;
@@ -29,5 +29,37 @@ body{
 .w3-container{
      
 }
+.container-form{
+    background-color: white;
+    margin-bottom: 0;
+    border-color: black;
+    margin: 50px;
+    padding: 20px;
+}
 
+.contact-h2{
+    background-color: white;
+    color: #4aaaa5;
+    border-bottom: gray solid 2px;
+    padding: 15px;
+}
+.contact-br{
     
+}
+    
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom: -540px;
+    background-color:#666666;
+    color: white;
+    width: 100%;
+    padding: 22px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    border-top: #4aaaa5 6px solid ;   
+}
