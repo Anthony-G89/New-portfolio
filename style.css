@@ -1,6 +1,5 @@
 body{
-    margin: ;
-    padding: ;
+
     background-image: url(assets/qbkls.png);
 }
 
@@ -29,6 +28,23 @@ nav a:hover{
     padding: 20px;
 }
 
+.about-me{
+    color:#4aaaa5;;
+    border-bottom: gray 1px solid;
+    padding: 15px;
+}
+
+.w3-container{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container-form{
     background-color: white;
     margin-bottom: 0;
@@ -41,7 +57,7 @@ nav a:hover{
     background-color: white;
     margin-bottom: 0;
     border-color: black;
-    margin: 55px;
+    margin: 61px;
 
 }
 
@@ -60,7 +76,7 @@ nav a:hover{
 .contact-h2{
     background-color: white;
     color: #4aaaa5;
-    border-bottom: gray solid 2px;
+    border-bottom: gray solid 1px;
     padding: 15px;
 }
 
@@ -72,7 +88,7 @@ nav a:hover{
 .h2-portfolio{
     background-color:white;
     color: #4aaaa5;
-    border-bottom: gray solid 2px;
+    border-bottom: gray solid 1px;
     padding: 15px;
     margin: 15px;
 }
@@ -94,29 +110,3 @@ footer{
     border-top: #4aaaa5 6px solid ;   
 }
 
-//
-<p class="text-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nostrum excepturi distinctio at rem? Neque cupiditate vel enim, totam quam omnis architecto! Modi fugit, voluptate distinctio itaque molestias animi? Libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sed, culpa, reprehenderit modi architecto vero necessitatibus voluptate illum corporis magnam molestiae, dolore laudantium inventore? Saepe aut sint unde eaque amet?</p>
-<img class="me" src="assets/Me (1).jpg" width="250px" height="350px" alt="img of me">
-
-
-<header>
-        <nav>
-            <div class="container">
-                <h1 id="myname">Anthony Guerrero</h1>
-                    <ul class="nav justify-content-end mynav">
-                        <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-            </div>        
-        </nav>    
-        </header>
-
-        <img src="assets/mad-barbers.jpg" alt="logo of barber shop"width="200px" height="200px">
-        <img src="assets/UCL 2019.jpg" alt="logo" width="200px" height="200px">
