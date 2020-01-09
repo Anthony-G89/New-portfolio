@@ -4,14 +4,14 @@ body{
 }
 
 .mynav{
-    margin: 20px;
+    margin: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
  
 }
 
 .nav-link{
     color: gray;
-    font-size: x-large;
+    font-size: large;
 }
 nav a:hover{
     color:#4aaaa5 ;
@@ -21,7 +21,17 @@ nav a:hover{
     width: 32%;
     background-color:teal;
     color: white;
-    padding: 10px;
+    padding: 11px;
+    margin: 16px 16px 0px 45px;
+
+}
+.container{
+    margin: 0px;
+    clear: both;
+    overflow: auto;
+    background-color: white;
+    
+
 }
 
 .me{
@@ -36,8 +46,9 @@ nav a:hover{
 
 .w3-container{
     background-color: white;
-    margin: 20px;
+    margin: 35px 80px;
     padding: 10px;
+    box-shadow: 5px 10px grey;
 
 }
 
@@ -49,15 +60,16 @@ nav a:hover{
     background-color: white;
     margin-bottom: 0;
     border-color: black;
+    box-shadow:  5px 13px grey;
     margin: 50px;
     padding: 20px;
 }
 
 .container-form-portfolio{
     background-color: white;
-    margin-bottom: 0;
     border-color: black;
-    margin: 61px;
+    box-shadow:  5px 13px grey;
+    margin: 10px 120px;
 
 }
 
