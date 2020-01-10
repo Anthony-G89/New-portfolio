@@ -6,15 +6,16 @@ body{
 .mynav{
     margin: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
- 
+    float: right;
 }
 
 .nav-link{
     color: gray;
     font-size: large;
 }
-nav a:hover{
-    color:#4aaaa5 ;
+nav a:hover, nav a:focus{
+    text-decoration: underline;
+    color:#4aaaa5;
 }
 
 #myname{
@@ -30,6 +31,7 @@ nav a:hover{
     clear: both;
     overflow: auto;
     background-color: white;
+    max-width: 100%;
     
 
 }
@@ -45,7 +47,7 @@ nav a:hover{
 }
 
 .w3-container{
-    background-color: white;
+    background-color:white;
     margin: 35px 80px;
     padding: 10px;
     box-shadow: 5px 10px grey;
