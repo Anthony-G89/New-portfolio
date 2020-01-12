@@ -6,6 +6,7 @@ body{
     margin: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: right;
+    
 }
 
 .nav-link{
@@ -19,14 +20,6 @@ nav a:hover, nav a:focus{
 }
 
 #myname{
-    width: 32%;
-    background-color:teal;
-    color: white;
-    padding: 11px;
-    margin: 16px 16px 0px 63px;
-}
-
-.myname-portfolio{
     width: 32%;
     background-color:teal;
     color: white;
@@ -73,12 +66,13 @@ nav a:hover, nav a:focus{
     margin-left: 77px;
 }
 
+
 .container-form-portfolio{
     background-color: whitesmoke;
     border-color: black;
     box-shadow:  5px 13px grey;
     margin: 35px 75px;
-    padding-left: 12px;
+    padding-left: 20px;
 }
 
 .text{
