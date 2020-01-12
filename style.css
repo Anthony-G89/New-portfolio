@@ -108,8 +108,7 @@ nav a:hover, nav a:focus{
     
 
 footer{
-    position: absolute;
-    bottom: -540px;
+    position: sticky;
     background-color:#666666;
     color: white;
     width: 100%;
