@@ -118,3 +118,11 @@ footer{
     border-top: #4aaaa5 6px solid ;   
 }
 
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    
+
+}
+
