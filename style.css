@@ -1,5 +1,6 @@
 body{
-  background-image: url(assets/qbkls.png);
+    background-image: url(assets/qbkls.png);
+  
 }
 
 .mynav{
@@ -20,7 +21,6 @@ nav a:hover, nav a:focus{
 }
 
 #myname{
-    width: 32%;
     background-color:teal;
     color: white;
     padding: 11px;
@@ -46,15 +46,23 @@ nav a:hover, nav a:focus{
 }
 
 .w3-container{
+    position: relative;
     background-color:white;
-    margin: 35px 80px;
+    margin: 35px auto;
+    width: 75%;
     padding: 10px;
     box-shadow: 5px 10px grey;
 }
 
 .info{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+
+/* #toggle{
+    padding: 10px;
+    font-size: x-large;
+} */
 
 .container-form{
     background-color: white;
@@ -108,7 +116,8 @@ nav a:hover, nav a:focus{
     
 
 footer{
-    position: sticky;
+    position: relative;
+    bottom: -76px;
     background-color:#666666;
     color: white;
     width: 100%;
@@ -117,6 +126,11 @@ footer{
     font-family: Arial, Helvetica, sans-serif ;
     border-top: #4aaaa5 6px solid ;   
 }
+
+/* .dark-mode{
+    background-color: gray;
+    color: white;
+} */
 
 @media screen 
   and (device-width: 360px) 
