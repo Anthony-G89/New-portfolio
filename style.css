@@ -1,5 +1,6 @@
 body{
-    background-image: url(assets/qbkls.png);
+    /* background-image: url(assets/qbkls.png); */
+    background-color:#f8f9fa;
   
 }
 
@@ -59,10 +60,10 @@ nav a:hover, nav a:focus{
     text-align: center;
 }
 
-/* #toggle{
+#toggle{
     padding: 10px;
     font-size: x-large;
-} */
+}
 
 .container-form{
     background-color: white;
@@ -127,10 +128,11 @@ footer{
     border-top: #4aaaa5 6px solid ;   
 }
 
-/* .dark-mode{
+.dark-mode{
     background-color: gray;
-    color: white;
-} */
+    color: black;
+    
+}
 
 @media screen 
   and (device-width: 360px) 
