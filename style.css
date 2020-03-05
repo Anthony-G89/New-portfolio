@@ -82,6 +82,7 @@ nav a:hover, nav a:focus{
     box-shadow:  5px 13px grey;
     margin: 35px 75px;
     padding-left: 20px;
+    padding-bottom: 15px;
 }
 
 .text{
@@ -93,6 +94,19 @@ nav a:hover, nav a:focus{
     width: 180px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.weatherText{
+    position: absolute;
+    cursor: pointer;
+    top: 161px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    width: 58%;
+    padding: 4px 8px;
+    
+    
 }
 
 
