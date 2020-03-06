@@ -1,6 +1,5 @@
 body{
-    /* background-image: url(assets/qbkls.png); */
-    background-color:#f8f9fa;
+    background-image: url(assets/qbkls.png);
   
 }
 
@@ -22,7 +21,7 @@ nav a:hover, nav a:focus{
 }
 
 #myname{
-    background-color:teal;
+    background-color:#ff0c00;
     color: white;
     padding: 11px;
     margin: 16px 16px 0px 63px;
@@ -77,11 +76,11 @@ nav a:hover, nav a:focus{
 
 
 .container-form-portfolio{
-    background-color: whitesmoke;
+    background-color: #a8c8daf0;
     border-color: black;
     box-shadow:  5px 13px grey;
     margin: 35px 75px;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-bottom: 15px;
 }
 
@@ -101,12 +100,31 @@ nav a:hover, nav a:focus{
     cursor: pointer;
     top: 161px;
     text-align: center;
-    background-color: teal;
+    background-color: #ff0c00;
+    color: white;
+    width: 58%;
+    padding: 4px 8px; 
+}
+
+.codeQuizText{
+    position: absolute;
+    cursor: pointer;
+    top: 161px;
+    text-align: center;
+    background-color: #ff0c00;
+    color: white;
+    width: 58%;
+    padding: 4px 8px; 
+}
+.LocalWireText{
+    position: absolute;
+    cursor: pointer;
+    top: 161px;
+    text-align: center;
+    background-color: #ff0c00;
     color: white;
     width: 58%;
     padding: 4px 8px;
-    
-    
 }
 
 
@@ -126,12 +144,12 @@ nav a:hover, nav a:focus{
     color: #4aaaa5;
     border-bottom: gray solid 1px;
     padding: 15px;
-    margin: 15px;
+    margin-right: 36px;
 }
     
 
 footer{
-    position: relative;
+    position: absolute;
     bottom: -76px;
     background-color:#666666;
     color: white;
@@ -142,11 +160,11 @@ footer{
     border-top: #4aaaa5 6px solid ;   
 }
 
-.dark-mode{
+/* .dark-mode{
     background-color: gray;
     color: black;
     
-}
+} */
 
 @media screen 
   and (device-width: 360px) 
