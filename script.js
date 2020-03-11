@@ -10,15 +10,15 @@ const toggle = $("#toggle");
 // });
 
 $(".weatherText").on("click", () =>{
-    window.open("https://knuckleh3ad89.github.io/weather-dashboard/");
+    window.open("https://github.com/knuckleh3ad89/weather-dashboard");
     
 });
 
 $(".codeQuizText").on("click", ()=>{
-    window.open("https://knuckleh3ad89.github.io/Code-Quiz/");
+    window.open("https://github.com/knuckleh3ad89/Code-Quiz");
 
 });
 
 $(".LocalWireText").on("click",()=>{
-    window.open("https://knuckleh3ad89.github.io/Project_One/");
+    window.open("https://github.com/knuckleh3ad89/Project_One");
 })
