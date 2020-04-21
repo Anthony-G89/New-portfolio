@@ -84,6 +84,10 @@ nav a:hover, nav a:focus{
     padding-bottom: 15px;
 }
 
+.frontEndHeader{
+    color: #bd5625;
+}
+
 
 
 .text{
@@ -135,7 +139,8 @@ nav a:hover, nav a:focus{
 
 footer{
     position: fixed;
-    bottom: 0;
+    left: 0;
+    bottom: 0px;
     background-color:#666666;
     color: white;
     width: 100%;
@@ -143,6 +148,7 @@ footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif ;
     border-top: #4aaaa5 6px solid ;   
+    z-index: -1;
 }
 
 /* .dark-mode{
