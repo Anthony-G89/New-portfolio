@@ -10,20 +10,20 @@ const toggle = $("#toggle");
     
 // });
 
-$(".weatherText").on("click", () =>{
+$("#weatherDashboard").on("click", () =>{
     window.open("https://github.com/knuckleh3ad89/weather-dashboard");
     
 });
 
-$(".codeQuizText").on("click", ()=>{
+$("#codeQuiz").on("click", ()=>{
     window.open("https://github.com/knuckleh3ad89/Code-Quiz");
 
 });
 
-$(".LocalWireText").on("click",()=>{
+$("#LocalWire").on("click",()=>{
     window.open("https://github.com/knuckleh3ad89/Project_One");
 });
 
-$(".readMeText").on("click", ()=>{
+$("#readMe").on("click", ()=>{
     window.open("https://github.com/knuckleh3ad89/good_readme");
 })
