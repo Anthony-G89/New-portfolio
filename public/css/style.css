@@ -88,6 +88,24 @@ nav a:hover, nav a:focus{
     color: #bd5625;
 }
 
+#projects{
+    margin-top: 20px;
+    color: #bd5625;
+
+}
+
+#workDay{
+    margin-top: 15px;
+}
+
+#noteTaker{
+    margin-top: 15px;
+}
+
+#teamTemplate{
+    margin-top: 15px;
+}
+
 
 
 .text{
